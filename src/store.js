@@ -3,12 +3,7 @@ import createHistory from 'history/createBrowserHistory';
 
 import { applyMiddleware, createStore } from 'redux';
 
-// Logger with default options
-import logger from 'redux-logger'
-const store = createStore(
-  reducer,
-  applyMiddleware(logger)
-)
+import { createLogger } from 'redux-logger';
 
 
 // import a library to handle async with redux
