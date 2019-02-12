@@ -1,10 +1,8 @@
 // import the ability to modify browser history within our router
 import createHistory from 'history/createBrowserHistory';
 
-
-
+// import our logger for redux
 import { createLogger } from 'redux-logger';
-
 
 // import a library to handle async with redux
 import thunk from 'redux-thunk';
@@ -13,7 +11,7 @@ import thunk from 'redux-thunk';
 import { createStore, applyMiddleware, compose } from 'redux';
 
 // import the middleware for using react router with redux
-import { routerMiddleware } from 'react-router-redux';
+//import { routerMiddleware } from 'react-router-redux';
 
 // import the already combined reducers for redux to use
 import rootReducer from './ducks';
