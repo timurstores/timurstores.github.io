@@ -1,7 +1,7 @@
 // import the ability to modify browser history within our router
 import createHistory from 'history/createBrowserHistory';
 
-import { applyMiddleware, createStore } from 'redux';
+
 
 import { createLogger } from 'redux-logger';
 
