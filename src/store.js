@@ -1,8 +1,8 @@
 // import the ability to modify browser history within our router
 import createHistory from 'history/createBrowserHistory';
 
-// import our logger for redux
-import { createLogger } from 'redux-logger';
+const createLogger = require(`redux-logger`);
+ngRedux.configureStore(rootReducer, {}, [createLogger({collapsed: 'true'})]);
 
 // import a library to handle async with redux
 import thunk from 'redux-thunk';
